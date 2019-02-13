@@ -43,8 +43,8 @@ $(document).ready(function () {
     });
 
 
-    $(".portfolio-item").click(function() {
-        $('.portfolio-show img').attr("src", $(this).data("largeimage"));
+    $(".btn-portfolio").click(function() {
+        $('.portfolio-show img').attr("src", $(this).parent().data("largeimage"));
         $(".portfolio-show").fadeIn(800).css("display", "flex");
     });
     $(".portfolio-show").click(function () {

@@ -58,18 +58,18 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-.header.fixed {
     position: fixed;
     bottom: 100%;
     left: 0;
-    width: 100%;
     z-index: 9;
-    transform: translateY(100%);
     transition-delay: .5s;
     transition-duration: .5s;
     transition-property: transform;
+    box-shadow: 1px 1px 6px 1px #00000059;
+
+}
+.header.fixed {
+    transform: translateY(100%);
 }
 .site-logo a {
     line-height: 60px;
@@ -118,6 +118,7 @@ table {
     z-index: 19;
     background-color: #fff;
     display: none;
+    box-shadow: 1px 1px 6px 1px #00000059;
 }
 .btn-close{
     color: #ffffff;
@@ -157,9 +158,10 @@ table {
     width: 70%;
     max-width: 1600px;
     background-color: #fff;
-    z-index: 99;
+    z-index: 8;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 1px 1px 6px 1px #00000059;
 }
 .my-photo{
     width: 40%;
@@ -318,6 +320,7 @@ table {
     box-sizing: border-box;
     min-width: 200px;
     position: relative;
+    box-shadow: 1px 1px 6px 1px #00000059;
 }
 .wrapper-first {
     text-align: center;
@@ -390,6 +393,7 @@ table {
     padding: 50px 40px;
     background-color: white;
     box-sizing: border-box;
+    box-shadow: 1px 1px 6px 1px #00000059;
 }
 .skill{
     width: 48%;
@@ -451,6 +455,7 @@ table {
 .left {
     left: 0;
     padding: 10px 40px 10px 0;
+
 }
 .right {
     top: 30px;
@@ -487,6 +492,7 @@ table {
     padding: 30px 30px;
     background-color: white;
     position: relative;
+    box-shadow: 1px 1px 6px 1px #00000059;
 }
 .education p{
     margin-bottom: 20px;
@@ -521,20 +527,15 @@ table {
     justify-content: space-between;
     margin-top: 50px;
     position: relative;
+
+}
+.portfolio-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 1px 6px 1px #00000059;
 }
 .portfolio-item.active  .btn-portfolio{
-    display: flex;
-    align-items: center;
-    color: white;
-    justify-content: center;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    margin-top: -150px;
-    margin-left: 120px;
-    border-radius: 100%;
-    background-color: #0EB57D;
-    cursor: pointer;
+    opacity: 1;
 }
 .portfolio-item.active  .btn-portfolio:hover{
     color: #0EB57D;
@@ -544,23 +545,33 @@ table {
 }
 .portfolio-item img{
     max-width: 280px;
-    margin-bottom: 25px;
     align-items: center;
     position: relative;
+    transition: transform .5s;
+
+}
+.portfolio-item.active img{
+    transform: scale(1.2);
+
 }
 .btn-portfolio{
-    display: none;
+    display: flex;
     align-items: center;
     color: white;
     justify-content: center;
     position: absolute;
     width: 40px;
+    transition: opacity .5s;
     height: 40px;
-    margin-top: -150px;
-    margin-left: 120px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
     border-radius: 100%;
     background-color: #0EB57D;
     cursor: pointer;
+    opacity: 0;
 }
 .btn-portfolio:hover{
     color: #0EB57D;
@@ -610,6 +621,7 @@ table {
     max-width: 700px;
     margin-left: 10px;
     opacity: 0.9;
+    box-shadow: 1px 1px 6px 1px #00000059;
 }
 .form{
     display: flex;
