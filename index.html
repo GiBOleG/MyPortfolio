@@ -12,12 +12,9 @@
 <body>
 <header class="header">
     <div class="site-logo">
-        <a href="#">TITLE</a>
+        <a href="#">Portfolio</a>
     </div>
     <div class="header-right">
-        <div class="search-btn waves-effect">
-            <i class="fas fa-search"></i>
-        </div>
         <div class="menu-bar waves-effect">
             <i class="fas fa-bars"></i>
         </div>
@@ -29,21 +26,20 @@
         <i class="fas fa-times"></i>
     </div>
     <ul id="nav-close">
-        <li>Home</li>
-        <li id="service">Service</li>
-        <li>Skill</li>
-        <li>Education</li>
-        <li>Experience</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li data-target=".header">Home</li>
+        <li data-target=".service-section">Service</li>
+        <li data-target=".skill-section">Skill</li>
+        <li data-target=".education-section">Education</li>
+        <li data-target=".portfolio-section">Portfolio</li>
+        <li data-target=".contact-section">Contact</li>
     </ul>
 </nav>
 <div class="site-header"></div>
 <section class="about-section">
     <div class="section-content">
         <div class="my-photo">
-            <div class="the-photo">
-                <i class="fas fa-download"></i>
+            <div class="portfolio-download">
+                <a href="docs/CV%20OLEH%20MATSIUK+photo.docx" download=""><i class="fas fa-download"></i></a>
             </div>
             <h1>OLEH MATSIUK</h1>
             <p>Junior Front-End developer</p>
@@ -98,17 +94,17 @@
                     <hr>
                 </div>
                 <div class="wrapper-second">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo fuga, libero magni perferendis praesentium quibusdam saepe sint temporibus unde?</p>
+                    <p>An excellent solution to the problem of correctly displaying the site on different screens.</p>
                 </div>
             </div>
             <div class="wrapper" data-proportion-h="1">
                 <div class="wrapper-first">
                     <i class="fas fa-desktop"></i>
-                    <h3>animationas</h3>
+                    <h3>animations</h3>
                     <hr>
                 </div>
                 <div class="wrapper-second">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur doloremque earum ipsa officiis perspiciatis quas sint unde veniam vitae.</p>
+                    <p>High-quality and relevant animation of web pages is pleasing to the eye and helps in work. This is one of the foundations of our web design today.</p>
                 </div>
             </div>
             <div class="wrapper">
@@ -118,7 +114,7 @@
                     <hr>
                 </div>
                 <div class="wrapper-second">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad, consectetur hic itaque nam officiis placeat qui quibusdam recusandae rem.</p>
+                    <p>SEO optimization is the best way to increase the visibility of the site in search engines.</p>
                 </div>
             </div>
         </div>
@@ -161,30 +157,23 @@
         <div class="education-timeline">
             <div class="timeline left">
                 <div class="education">
-                    <p>Stackford University</p>
-                    <h3>BS IN COMPUTER SCIENCE</h3>
-                    <div>2006-2010</div>
+                    <p>Graduated from </p>
+                    <h3>high school</h3>
+                    <div>2006</div>
                 </div>
             </div>
             <div class="timeline right">
                 <div class="education">
-                    <p>Stackford University</p>
-                    <h3>BS IN COMPUTER SCIENCE</h3>
-                    <div>2006-2010</div>
+                    <p>Got a driver license</p>
+                    <h3>driving school</h3>
+                    <div>2007</div>
                 </div>
             </div>
             <div class="timeline left">
                 <div class="education">
-                    <p>Stackford University</p>
-                    <h3>BS IN COMPUTER SCIENCE</h3>
-                    <div>2006-2010</div>
-                </div>
-            </div>
-            <div class="timeline right">
-                <div class="education">
-                    <p>Stackford University</p>
-                    <h3>BS IN COMPUTER SCIENCE</h3>
-                    <div>2006-2010</div>
+                    <p>Graduated from </p>
+                    <h3>Chernivtsi National University</h3>
+                    <div>2013</div>
                 </div>
             </div>
         </div>
@@ -224,18 +213,18 @@
 <section class="contact-section">
     <div class="container">
         <div class="section-title">
-            <h2>CONTACT</h2>
+            <h2 class="contact-text">CONTACT</h2>
         </div>
     </div>
 </section>
 <section class="contact-section contact-bg">
         <div class="contact-content">
             <div class="contact-form">
-                <form class="form">
-                    <input id="name" type="text" name="name" class="form-input" placeholder="Name">
-                    <input id="email" type="email" name="email" class="form-input" placeholder="Email">
-                    <input id="subject" type="text" name="subject" class="form-input" placeholder="Subject">
-                    <textarea id="message" name="message" cols="30" rows="10" class="form-input" placeholder="Message"></textarea>
+                <form id="contact-form" class="form">
+                    <input required id="name" type="text" name="name" class="form-input" placeholder="Name">
+                    <input required id="email" type="email" name="email" class="form-input" placeholder="Email">
+                    <input required id="subject" type="text" name="subject" class="form-input" placeholder="Subject">
+                    <textarea required id="message" name="message" cols="30" rows="10" class="form-input" placeholder="Message"></textarea>
                     <button class="contact-btn" type="submit" name="button">SEND MESSAGE</button>
                 </form>
             </div>

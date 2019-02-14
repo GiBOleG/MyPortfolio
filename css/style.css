@@ -102,9 +102,7 @@ table {
     background-color: #0EB57D;
     cursor: pointer;
 }
-.search-btn{
-    margin-right: 10px;
-}
+
 .site-header {
     background: url("../img/bg1.png");
     background-size: cover;
@@ -173,13 +171,13 @@ table {
     position: relative;
 }
 
-.the-photo{
+.portfolio-download{
     width: 230px;
     height: 230px;
     border-radius: 50%;
     background: url("../img/P203380220.jpg") no-repeat center;
 }
-.the-photo i{
+.portfolio-download i{
     position: absolute;
     top: 50px;
     width: 45px;
@@ -194,7 +192,7 @@ table {
     justify-content: center;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.10), 0 1px 6px rgba(0, 0, 0, 0.20);
 }
-.the-photo i:hover {
+.portfolio-download i:hover {
     background-color: white;
     color: #0EB57D;
     transition: ease 0.8s;
@@ -397,6 +395,7 @@ table {
 .skill{
     width: 48%;
     display: flex;
+    min-width: 200px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -497,6 +496,7 @@ table {
     margin-bottom: 20px;
 }
 .education h3{
+    text-transform: uppercase;
     margin-bottom: 20px;
     color: #333333;
 }
@@ -627,13 +627,14 @@ table {
     padding: 40px;
 }
 .form-input{
-    margin-bottom: 15px;
+    padding: 10px;
     border: none;
     height: 38px;
     border-bottom: 2px solid #e6e6e6;
 }
 textarea.form-input{
     height: 100px;
+    resize : none;
 }
 .contact-btn{
     margin-top: 20px;
@@ -743,13 +744,24 @@ textarea.form-input{
         margin-bottom: 25px;
     }
     .section-title{
-        margin: 50px;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .skill-wrapper{
+        margin-top: 30px;
+    }
+    .education-timeline{
+        margin-top: 30px;
+    }
+    .portfolio-content{
+        margin-top: 30px;
     }
     .service-wrapper{
+        margin-top: 30px;
         justify-content: space-around;
     }
     .wrapper{
-        width: 70%;
+        width: 90%;
     }
     .education-timeline{
         flex-wrap: nowrap;
@@ -779,7 +791,19 @@ textarea.form-input{
     .contact-bg{
         margin-top: 0;
     }
+    .contact-content{
+        padding: 20px;
+    }
     .contact-form{
+        width: 100%;
+    }
+    .contact-text{
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+}
+@media (max-width: 550px) {
+    .skill{
         width: 100%;
     }
 }

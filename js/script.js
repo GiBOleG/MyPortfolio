@@ -52,13 +52,40 @@ $(document).ready(function () {
     });
 
 
-
-    $("#service").click(function (){
+    $("#nav-close li").click(function (){
+        const target = $(this).data("target");
+        console.log(target);
         $('html, body').animate({
-            scrollTop: $(".service-section").offset().top
-        }, 2000);
+            scrollTop: $(target).offset().top
+        }, 500);
     });
 
+    $('#contact-form').submit(function (event) {
+        event.preventDefault();
 
+        const name = this.elements.name.value;
+        const email = this.elements.email.value;
+        const message = this.elements.message.value;
+        const subject = this.elements.subject.value;
+        fetch("https://email-redirect-oleh.herokuapp.com/email-data",{
+            method:"POST",
+            //mode:'no-cors',
+            body: JSON.stringify({
+                name,email,message,subject
+            })
+        })
+        //.then(res => res.text())
+        .then(function (response) {
+            console.log(response);
+            if (response.status === 200) {
+                console.log(response.status);
+                const $formAlert = $(".contact-form-success-alert");
+                $formAlert.fadeIn(500);
+                setTimeout(function () {
+                    $formAlert.fadeOut(500);
+                }, 6000);
+            }
+        })
+    })
 
 });
