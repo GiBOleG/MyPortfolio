@@ -180,7 +180,8 @@ table {
 }
 .portfolio-download i{
     position: absolute;
-    top: 50px;
+    top: 5px;
+    left: 5px;
     width: 45px;
     height: 45px;
     color: white;
@@ -189,6 +190,7 @@ table {
     align-items: center;
     border-radius: 100%;
     cursor: pointer;
+    transition: ease 0.8s;
     background-color: #0EB57D;
     justify-content: center;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.10), 0 1px 6px rgba(0, 0, 0, 0.20);
@@ -196,7 +198,6 @@ table {
 .portfolio-download i:hover {
     background-color: white;
     color: #0EB57D;
-    transition: ease 0.8s;
     border: 1px solid #0EB57D;
 }
 .download-hint{
@@ -205,12 +206,13 @@ table {
     background-color: #0eb57d;
     border-radius: 30px;
     color: white;
-    left: -19%;
+    top: -40px;
+    left: -33px;
+    transition: 0.5s;
     transform: scale(0);
 }
 .portfolio-download a:hover ~ .download-hint{
     transform: scale(1);
-    transition: 0.5s
 }
 .my-photo h1{
     color: #0EB57D;
