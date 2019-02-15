@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcd23484-5f80-4851-abcf-692ba75dd6f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fcd23484-5f80-4851-abcf-692ba75dd6f0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="12234">
-                  <caret line="658" column="16" lean-forward="true" selection-start-line="658" selection-start-column="16" selection-end-line="658" selection-end-column="16" />
+                <state relative-caret-position="253">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -107,6 +105,11 @@
               <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,6 +123,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matsi\WebstormProjects\MyPortfolio\docs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,7 +161,7 @@
       <workItem from="1550129017328" duration="2029000" />
       <workItem from="1550131615154" duration="3668000" />
       <workItem from="1550148362200" duration="15523000" />
-      <workItem from="1550216458796" duration="6874000" />
+      <workItem from="1550216458796" duration="7372000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1550076316907</created>
@@ -211,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550222926766</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added cv_oleh_matsiuk">
+      <created>1550223878740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550223878740</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163725000" />
+    <option name="totallyTimeSpent" value="164223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,7 +242,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32114467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960254" />
@@ -279,13 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12234">
-          <caret line="658" column="16" lean-forward="true" selection-start-line="658" selection-start-column="16" selection-end-line="658" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -296,6 +304,13 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
