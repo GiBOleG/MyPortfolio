@@ -74,9 +74,8 @@ $(document).ready(function () {
                 name,email,message,subject
             })
         })
-        //.then(res => res.text())
+        .then(res => res.text())
         .then(function (response) {
-            console.log(response);
             if (response.status === 200) {
                 console.log(response.status);
                 const $formAlert = $(".contact-form-success-alert");

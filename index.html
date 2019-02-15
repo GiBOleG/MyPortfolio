@@ -26,7 +26,7 @@
         <i class="fas fa-times"></i>
     </div>
     <ul id="nav-close">
-        <li data-target=".header">Home</li>
+        <li data-target=".site-header">Home</li>
         <li data-target=".service-section">Service</li>
         <li data-target=".skill-section">Skill</li>
         <li data-target=".education-section">Education</li>
@@ -54,14 +54,12 @@
                     <li>Address</li>
                     <li>Email</li>
                     <li>Phone</li>
-                    <li>Website</li>
                 </ul>
                 <ul>
                     <li>27</li>
                     <li>Kosiv, Ivano-Frankivsk region</li>
                     <li>matsiukoleh@gmail.com</li>
                     <li>+38(096)33-50-494</li>
-                    <li>http://www.oleg.com</li>
                 </ul>
             </div>
         </div>
@@ -176,6 +174,13 @@
                     <div>2013</div>
                 </div>
             </div>
+            <div class="timeline right">
+                <div class="education">
+                    <p>JavaScript & jQuery</p>
+                    <h3>AstroPort.Net</h3>
+                    <div>2018</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -218,18 +223,24 @@
     </div>
 </section>
 <section class="contact-section contact-bg">
-        <div class="contact-content">
-            <div class="contact-form">
-                <form id="contact-form" class="form">
-                    <input required id="name" type="text" name="name" class="form-input" placeholder="Name">
-                    <input required id="email" type="email" name="email" class="form-input" placeholder="Email">
-                    <input required id="subject" type="text" name="subject" class="form-input" placeholder="Subject">
-                    <textarea required id="message" name="message" cols="30" rows="10" class="form-input" placeholder="Message"></textarea>
-                    <button class="contact-btn" type="submit" name="button">SEND MESSAGE</button>
-                </form>
-            </div>
+    <div class="contact-content">
+        <div class="contact-form">
+            <form id="contact-form" class="form">
+                <input required id="name" type="text" name="name" class="form-input" placeholder="Name">
+                <input required id="email" type="email" name="email" class="form-input" placeholder="Email">
+                <input required id="subject" type="text" name="subject" class="form-input" placeholder="Subject">
+                <textarea required id="message" name="message" cols="30" rows="10" class="form-input" placeholder="Message"></textarea>
+                <button class="contact-btn" type="submit" name="button">SEND MESSAGE</button>
+            </form>
         </div>
+    </div>
+    <div class="contact-form-success-alert">
+            <i class="fas fa-check-circle"></i>
+            <h1>Thank You</h1>
+            <h3>The form was submitted successfully.</h3>
+    </div>
 </section>
+
 <footer class="footer">
     <i id="btn-top" class="fas fa-angle-up"></i>
     <h3>&copy; ALL RIGHTS RESERVED.</h3>

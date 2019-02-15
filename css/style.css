@@ -654,6 +654,32 @@ textarea.form-input{
     color: #0EB57D;
     transition: ease 0.8s;
 }
+.contact-form-success-alert{
+    top: 80px;
+    right: 20px;
+    padding: 20px;
+    z-index: 9;
+    position: fixed;
+    display: none;
+    align-items: center;
+    background-color: #0eb57d;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.30);
+}
+.contact-form-success-alert {
+    text-align: center;
+    color: white;
+}
+.contact-form-success-alert  h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-form-success-alert  h3{
+    font-size: 14px;
+}
+.fa-check-circle{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
 .footer{
     width: 100%;
     text-align: center;
@@ -796,6 +822,12 @@ textarea.form-input{
     }
     .contact-form{
         width: 100%;
+    }
+    .form{
+        padding: 10px;
+    }
+    .form-input{
+        height: 28px;
     }
     .contact-text{
         margin-bottom: 20px;
