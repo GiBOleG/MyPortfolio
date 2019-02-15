@@ -47,7 +47,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="388">
-                  <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+                  <caret line="41" column="59" lean-forward="true" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -141,7 +141,7 @@
       <workItem from="1550129017328" duration="2029000" />
       <workItem from="1550131615154" duration="3668000" />
       <workItem from="1550148362200" duration="15523000" />
-      <workItem from="1550216458796" duration="5569000" />
+      <workItem from="1550216458796" duration="5843000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1550076316907</created>
@@ -178,11 +178,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550221592993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added cv">
+      <created>1550222283567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550222283567</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162420000" />
+    <option name="totallyTimeSpent" value="162694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,7 +233,8 @@
     <MESSAGE value="correct @media" />
     <MESSAGE value="added style fixes and contact form script" />
     <MESSAGE value="added contact-form-success-alert and style fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added contact-form-success-alert and style fixes" />
+    <MESSAGE value="added cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="added cv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/stock-photo-html-and-css-abstract-concept-blue-text-blue-background-528261517.png">
@@ -255,7 +263,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <caret line="41" column="59" lean-forward="true" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
