@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd23484-5f80-4851-abcf-692ba75dd6f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,14 +18,14 @@
     <favorites_list name="MyPortfolio" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6331169">
+    <splitter split-orientation="horizontal" split-proportion="0.38235295">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4851">
-                  <caret line="829" column="21" selection-start-line="829" selection-start-column="21" selection-end-line="829" selection-end-column="21" />
+                <state relative-caret-position="9819">
+                  <caret line="658" column="16" lean-forward="true" selection-start-line="658" selection-start-column="16" selection-end-line="658" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -48,8 +46,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3650">
-                  <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+                <state relative-caret-position="388">
+                  <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,8 +83,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -101,10 +99,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -146,7 +141,7 @@
       <workItem from="1550129017328" duration="2029000" />
       <workItem from="1550131615154" duration="3668000" />
       <workItem from="1550148362200" duration="15523000" />
-      <workItem from="1550216458796" duration="4820000" />
+      <workItem from="1550216458796" duration="5569000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1550076316907</created>
@@ -176,11 +171,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550172894900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added contact-form-success-alert and style fixes">
+      <created>1550221592993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550221592993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161671000" />
+    <option name="totallyTimeSpent" value="162420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,7 +225,8 @@
     <MESSAGE value="add shadow" />
     <MESSAGE value="correct @media" />
     <MESSAGE value="added style fixes and contact form script" />
-    <option name="LAST_COMMIT_MESSAGE" value="added style fixes and contact form script" />
+    <MESSAGE value="added contact-form-success-alert and style fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added contact-form-success-alert and style fixes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/stock-photo-html-and-css-abstract-concept-blue-text-blue-background-528261517.png">
@@ -242,23 +245,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9819">
+          <caret line="658" column="16" lean-forward="true" selection-start-line="658" selection-start-column="16" selection-end-line="658" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3650">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        <state relative-caret-position="388">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4851">
-          <caret line="829" column="21" selection-start-line="829" selection-start-column="21" selection-end-line="829" selection-end-column="21" />
         </state>
       </provider>
     </entry>
