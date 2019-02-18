@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd23484-5f80-4851-abcf-692ba75dd6f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,14 +18,14 @@
     <favorites_list name="MyPortfolio" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38235295">
+    <splitter split-orientation="horizontal" split-proportion="0.49682036">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="181">
-                  <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
+                <state relative-caret-position="141">
+                  <caret line="400" column="18" lean-forward="true" selection-start-line="400" selection-start-column="18" selection-end-line="400" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -46,8 +46,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="41" />
+                <state relative-caret-position="92">
+                  <caret line="121" column="10" lean-forward="true" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,16 +83,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="-14" />
-    <option name="width" value="927" />
-    <option name="height" value="801" />
+    <option name="x" value="623" />
+    <option name="y" value="3" />
+    <option name="width" value="663" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -147,7 +147,8 @@
       <workItem from="1550131615154" duration="3668000" />
       <workItem from="1550148362200" duration="15523000" />
       <workItem from="1550216458796" duration="9631000" />
-      <workItem from="1550231016822" duration="2893000" />
+      <workItem from="1550231016822" duration="3587000" />
+      <workItem from="1550487063628" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1550076316907</created>
@@ -226,11 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550232344798</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="corrected download-hint">
+      <created>1550234613419</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550234613419</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169375000" />
+    <option name="totallyTimeSpent" value="170789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,7 +286,8 @@
     <MESSAGE value="added cv_oleh_matsiuk" />
     <MESSAGE value="add file readme" />
     <MESSAGE value="added download-hint" />
-    <option name="LAST_COMMIT_MESSAGE" value="added download-hint" />
+    <MESSAGE value="corrected download-hint" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected download-hint" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/stock-photo-html-and-css-abstract-concept-blue-text-blue-background-528261517.png">
@@ -297,23 +306,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="400" column="18" lean-forward="true" selection-start-line="400" selection-start-column="18" selection-end-line="400" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="41" />
+        <state relative-caret-position="92">
+          <caret line="121" column="10" lean-forward="true" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
         </state>
       </provider>
     </entry>
