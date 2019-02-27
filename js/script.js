@@ -76,7 +76,7 @@ $(document).ready(function () {
         })
         .then(res => res.text())
         .then(function (response) {
-            if (response.status === 200) {
+            if (response === 'ok') {
                 console.log(response.status);
                 const $formAlert = $(".contact-form-success-alert");
                 $formAlert.fadeIn(500);
