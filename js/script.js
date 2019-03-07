@@ -25,8 +25,7 @@ $(document).ready(function () {
     $(window).on("scroll", function () {
         if ($(window).scrollTop() > 100) {
             $header.addClass("fixed");
-        }
-        else {
+        } else {
             $header.removeClass("fixed");
         }
     });
@@ -43,7 +42,7 @@ $(document).ready(function () {
     });
 
 
-    $(".btn-portfolio").click(function() {
+    $(".btn-portfolio").click(function () {
         $('.portfolio-show img').attr("src", $(this).parent().data("largeimage"));
         $(".portfolio-show").fadeIn(800).css("display", "flex");
     });
@@ -52,7 +51,7 @@ $(document).ready(function () {
     });
 
 
-    $("#nav-close li").click(function (){
+    $("#nav-close li").click(function () {
         const target = $(this).data("target");
         console.log(target);
         $('html, body').animate({
@@ -67,24 +66,27 @@ $(document).ready(function () {
         const email = this.elements.email.value;
         const message = this.elements.message.value;
         const subject = this.elements.subject.value;
-        fetch("https://email-redirect-oleh.herokuapp.com/email-data",{
-            method:"POST",
+        fetch("https://email-redirect-oleh.herokuapp.com/email-data", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
             //mode:'no-cors',
             body: JSON.stringify({
-                name,email,message,subject
+                name, email, message, subject
             })
         })
-        .then(res => res.text())
-        .then(function (response) {
-            if (response === 'ok') {
-                console.log(response.status);
-                const $formAlert = $(".contact-form-success-alert");
-                $formAlert.fadeIn(500);
-                setTimeout(function () {
-                    $formAlert.fadeOut(500);
-                }, 6000);
-            }
-        })
+            .then(res => res.text())
+            .then(function (response) {
+                if (response === 'ok') {
+                    console.log(response.status);
+                    const $formAlert = $(".contact-form-success-alert");
+                    $formAlert.fadeIn(500);
+                    setTimeout(function () {
+                        $formAlert.fadeOut(500);
+                    }, 6000);
+                }
+            })
     })
 
 });
