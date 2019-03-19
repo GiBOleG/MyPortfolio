@@ -104,7 +104,7 @@ table {
 }
 
 .site-header {
-    background: url("../img/bg1.png");
+    background: url("../img/bg2.png");
     background-size: cover;
     height: 400px;
 }
@@ -626,7 +626,7 @@ table {
     padding: 40px;
 }
 .contact-bg{
-    background: url("../img/stock-photo-html-and-css-abstract-concept-blue-text-blue-background-528261517.png") center no-repeat;
+    background: url("../img/banner-main-large4.jpg") center no-repeat;
     margin-top: 40px;
     background-size: cover;
 }
