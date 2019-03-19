@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd23484-5f80-4851-abcf-692ba75dd6f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon_portfolio.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -185,7 +181,7 @@
       <workItem from="1551338703822" duration="55000" />
       <workItem from="1551943184585" duration="1577000" />
       <workItem from="1551962385889" duration="889000" />
-      <workItem from="1553012937747" duration="8005000" />
+      <workItem from="1553012937747" duration="8633000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1550076316907</created>
@@ -313,11 +309,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553017702382</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="change photo">
+      <created>1553026482723</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553026482723</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182057000" />
+    <option name="totallyTimeSpent" value="182685000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -371,7 +374,8 @@
     <MESSAGE value="connected jQuery library" />
     <MESSAGE value="corrected in script" />
     <MESSAGE value="change background image, add skype and skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="change background image, add skype and skills" />
+    <MESSAGE value="change photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="change photo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/stock-photo-html-and-css-abstract-concept-blue-text-blue-background-528261517.png">
